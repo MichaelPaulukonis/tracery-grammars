@@ -1,0 +1,187 @@
+{
+  "origin": ["#[#setup#]review#"]
+  , "review": [
+    "#thewinemaybe##curiously.capitalize# #note1#, with #adj# #category#. #goodwith#.#ratingmaybe#"
+    , "#thewinemaybe##flavor.capitalize# and #flavor# #category#, a #feeling# to #open#.#ratingmaybe#"
+    , "#thewinemaybe#This #adj# #liquid# #is# #packed# with #adj# #flavor# and #adj# #category#.#ratingmaybe#"
+    , "#thewinemaybe##adj.a.capitalize# #liquid#, #packed# with #adj# #flavor#. #goodwith#.#ratingmaybe#"
+    , "#thewinemaybe#What #is# #thisthat# #liquid#? #notwant##ratingmaybe#"
+    , "#thewinemaybe##thisthat.capitalize# #adjmaybe# #v# produces #adjmaybe.a##shame#.#notwantmaybe##ratingmaybe#"
+    , "#thewine#: #notwant##ratingmaybe#"
+    , "#thewine#: #grade#"
+  ]
+  , "setup": ["[adjective:#reaction-good#][grade:#grade-good#][liquid:#liquid-good#]"
+    , "[adjective:#reaction-bad#][grade:#grade-bad#][liquid:#liquid-bad#]"
+  ]
+  , "thewinemaybe": ["#thewine#: ", ""]
+  , "is": ["is", "was"]
+  , "thisthat": ["this", "that"]
+  , "notwantmaybe": [" #notwant#", ""]
+  , "notwant": ["#shame.capitalize#.", "#muchshame#", "#offends.capitalize# the #category#."
+    , "#avoid#.", "#avoid#. #avoid#.", "#avoid#. #avoid#. #avoid#."
+  ]
+  , "offends": ["offends", "insults", "threatens", "shames"]
+  , "avoid": ["AVOID", "SKIP", "PASS", "RUN AWAY"]
+  , "open": ["open", "uncork", "pour", "decant", "treasure", "savor", "imbibe", "guzzle", "get drunk on"]
+  , "goodwith": ["#good.capitalize# with #food# or #food#", "#good.capitalize# with #food#"]
+  , "foods": ["#food#", "#food# or #food#", "#food# and #food#"]
+  , "good": ["good", "passable", "pair", "serve", "enjoy"]
+  , "vineyard": ["vineyard", "estate", "farm", "acreage", "soil"]
+  , "flavor": ["#fruit#", "#savory#", "#fruit#-#fruit#", "#savory# and #savory#", "#fruit# and #savory#"
+    , "#savory# #fruit#", "#fruit#-infusion", "#savory#-infusion", "#flavor-adj# #fruit#"
+  ]
+  , "flavor-adj": ["burnt", "mashed", "pureed", "caramelized", "smashed", "crisp"]
+  , "fruit": ["cherry", "cherry", "cherry", "apple", "pear", "peach", "banana", "pumpkin", "cucumber"
+    , "raspberry", "black-currant", "pineapple", "apricot", "strawberry", "cloudberry", "lemon"
+    , "grapefruit", "blueberry", "durian"
+  ]
+  , "savory": ["chocolate", "chocolate", "coffee", "coffee", "creme brulee", "cappuccino", "cinnamon"
+    , "black pepper", "smoke", "blue agave", "hot pepper", "chile pepper", "herb", "oak chip", "bacon"
+    , "whiskey", "rum", "licorice", "green tea", "black tea", "coconut", "spirulina", "chicory", "oyster"
+    , "french onion"
+  ]
+  , "curiously": ["curiously", "remarkably", "overwhelmingly", "sadly", "notably", "blandly"
+    , "disappointingly"
+  ]
+  , "liquid-good": ["delight", "wonder", "offering", "wine", "morning dew", "beverage", "liquid", "nectar"]
+  , "liquid-bad": ["disgrace", "swill", "wine"]
+  , "feeling": ["#treat#", "#shame#"]
+  , "treat": ["treat", "pleasure", "delight"]
+  , "shame": ["pain", "disappointment", "disgrace", "shame", "sham", "swill", "humiliation", "stain"
+    , "scandal"
+  ]
+  , "muchshame": ["#packed.capitalize# with #adjmaybe##shame#."
+    , "#curiously.capitalize# #packed# with #adjmaybe#shame#."
+  ]
+  , "packed": ["packed", "filled", "brimming", "overstuffed", "teasing", "floating", "delighting"]
+  , "note1": ["#adj# and #adj#", "#adj#", "#flavor#"]
+  , "category": ["notes", "aftertaste", "mouth feel", "complexity", "acidity", "bouquet", "depth", "body"
+    , "grip", "texture"
+  ],
+
+  "adjmaybe": ["#adj# ", ""]
+  , "adj": ["acidic", "alcoholic", "angular", "astringent"
+    , "austere", "autolytic", "baked", "balanced", "barnyard", "big"
+    , "bitter", "bright", "brilliant", "buttery", "cassis", "cat pee"
+    , "charcoal", "chewy", "chocolaty", "cigar boxy", "closed", "cloying"
+    , "coarse", "complex", "concentrated", "connected", "corked", "creamy"
+    , "crisp", "dense", "deep", "dirty", "dry", "earthy", "elegant"
+    , "expressive", "extracted", "fallen over", "fat", "firm", "flabby"
+    , "flamboyant", "flat", "fleshy", "food friendly", "foxy", "fresh"
+    , "fruity", "full", "grassy", "green", "grippy", "hard", "heavy"
+    , "herbaceous", "herbal", "hollow", "hot", "intellectually satisfying"
+    , "jammy", "juicy", "laser-like", "lean", "leathery", "lees", "leggy"
+    , "minerally", "musty", "oaked", "oaky", "opulent", "oxidized"
+    , "petrolly", "powerful", "raisiny", "refined", "reticent", "rich"
+    , "rough", "round", "silky", "smokey", "smooth", "soft", "sour"
+    , "spicy", "steely", "structured", "supple", "sweet", "tannic", "tarry"
+    , "tart", "tight", "toast", "toasty", "transparent", "unctuous"
+    , "unoaked", "vanillin", "vegetal", "velvety", "vinegary"
+  ],
+
+  "food": ["Clam broth", "Olives", "Celery", "Radishes", "Mashed potatoes", "Boiled potatoes", "Fruit"
+    , "Milk", "Chicken salad"
+    , "Vanilla ice cream", "Cocoa", "Cheese", "Lettuce Salad", "Lobster salad", "Chocolate", "String Beans"
+    , "Apple Pie", "Sardines"
+    , "Oranges", "AMERICAN CHEESE", "GREEN PEAS", "Assorted cakes"
+    , "Apollinaris", "French fried potatoes", "Potato salad", "Baked Potatoes", "Stewed prunes"
+    , "Roquefort", "Ham", "Roast beef"
+    , "Apples", "Chocolate Ice Cream", "Stewed tomatoes", "Bananas", "Sliced Tomatoes", "Lima beans"
+    , "Camembert", "ROQUEFORT CHEESE", "Cigars"
+    , "Cucumbers", "Ice cream", "Edam Cheese", "Little Neck clams", "Swiss cheese", "Tomato Juice"
+    , "Crackers", "Spinach", "Cream Cheese", "ASSORTED CAKE", "Lettuce", "Raisins", "Sirloin Steak"
+    , "Cauliflower", "Grapes", "BLUE POINTS", "Cup Custard", "Petits fours"
+    , "Ripe Olives", "Orange", "French peas", "Consomme"
+    , "Fruits", "Buttermilk", "Tomato Salad", "Biscuit Tortoni", "Boiled rice", "Kaffee", "Iced tea"
+    , "Corned beef", "Succotash", "Charlotte Russe", "Lobster Cocktail", "Cucumber salad", "SALTED ALMONDS"
+    , "Dessert", "Benedictine", "Cigarettes", "Brussels Sprouts", "Romaine Salad", "Lyonnaise Potatoes"
+    , "Marmalade", "Dry Toast", "Grape fruit"
+    , "Apple Sauce", "Tongue", "CAMEMBERT CHEESE", "Bread and Butter"
+    , "Queen olives", "Little Necks", "Chow-chow", "Chicken", "Cold roast beef", "Milk toast", "Watermelon"
+    , "Macaroons", "Lettuce and Tomato Salad", "Fried Egg Plant", "Shrimp Cocktail", "Club sandwich"
+    , "Pears", "Chicken Sandwich", "Broiled Ham", "Baked Apple", "STRAWBERRY ICE CREAM", "Mutton Chops"
+    , "Lamb Chops", "Corned Beef Hash", "Brie", "ketchup"
+  ],
+
+  "thewine": [
+    "#family# #vineyard# #year# #varietal.capitalize#"
+  ]
+  , "year": ["#cent##digit##digit#", "20#twenties#", "20#twenties#"]
+  , "cent": ["17", "18", "19"]
+  , "digit": ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
+  , "twenties": ["00", "01", "02", "03", "04", "05", "06", "07", "08", "09"
+    , "10", "11", "12", "13", "14", "15", "16", "17"
+  ]
+  , "varietal": ["riesling", "gewurztraminer", "chardonnay", "sauvignon blanc", "syrah", "merlot"
+    , "cabernet sauvignon", "pinot noir", "muscat", "chablis", "cider", "rose", "zinfandel", "malbec"
+  ]
+  , "vineyard": ["#v.capitalize#", "#v.capitalize.s#", "Chateau", "#feature.capitalize#"]
+  , "v": ["vineyard", "estate", "cellar", "winery", "wine"]
+  , "feature": ["hill", "valley"]
+  , "family": ["#name#", "#name##relationmaybe#", "#az# & #az# #name##relationmaybe#"
+    , "#az#.#az#. #name#", "#name# & #name#"
+  ]
+  , "name": ["Smith", "Johnson", "Williams", "Brown", "Jones"
+    , "Miller", "Davis", "Garcia", "Rodriguez", "Wilson", "Martinez"
+    , "Anderson", "Taylor", "Thomas", "Hernandez", "Moore", "Martin"
+    , "Jackson", "Thompson", "White", "Lopez", "Lee", "Gonzalez", "Harris"
+    , "Clark", "Lewis", "Robinson", "Walker", "Perez", "Hall", "Young"
+    , "Allen", "Sanchez", "Wright", "King", "Scott", "Green", "Baker"
+    , "Adams", "Nelson", "Hill", "Ramirez", "Campbell", "Mitchell"
+    , "Roberts", "Carter", "Phillips", "Evans", "Turner", "Torres"
+    , "Parker", "Collins", "Edwards", "Stewart", "Flores", "Morris"
+    , "Nguyen", "Murphy", "Rivera", "Cook", "Rogers", "Morgan", "Peterson"
+    , "Cooper", "Reed", "Bailey", "Bell", "Gomez", "Kelly", "Howard"
+    , "Ward", "Cox", "Diaz", "Richardson", "Wood", "Watson", "Brooks"
+    , "Bennett", "Gray", "James", "Reyes", "Cruz", "Hughes", "Price"
+    , "Myers", "Long", "Foster", "Sanders", "Ross", "Morales", "Powell"
+    , "Sullivan", "Russell", "Ortiz", "Jenkins", "Gutierrez", "Perry"
+    , "Butler", "Barnes", "Fisher", "Henderson", "Coleman", "Simmons"
+    , "Patterson", "Jordan", "Reynolds", "Hamilton", "Graham", "Kim"
+    , "Gonzales", "Alexander", "Ramos", "Wallace", "Griffin", "West"
+    , "Cole", "Hayes", "Chavez", "Gibson", "Bryant", "Ellis", "Stevens"
+    , "Murray", "Ford", "Marshall", "Owens", "McDonald", "Harrison", "Ruiz"
+    , "Kennedy", "Wells", "Alvarez", "Woods", "Mendoza", "Castillo"
+    , "Olson", "Webb", "Washington", "Tucker", "Freeman", "Burns", "Henry"
+    , "Vasquez", "Snyder", "Simpson", "Crawford", "Jimenez", "Porter"
+    , "Mason", "Shaw", "Gordon", "Wagner", "Hunter", "Romero", "Hicks"
+    , "Dixon", "Hunt", "Palmer", "Robertson", "Black", "Holmes", "Stone"
+    , "Meyer", "Boyd", "Mills", "Warren", "Fox", "Rose", "Rice", "Moreno"
+    , "Schmidt", "Patel", "Ferguson", "Nichols", "Herrera", "Medina"
+    , "Ryan", "Fernandez", "Weaver", "Daniels", "Stephens", "Gardner"
+    , "Payne", "Kelley", "Dunn", "Pierce", "Arnold", "Tran", "Spencer"
+    , "Peters", "Hawkins", "Grant", "Hansen", "Castro", "Hoffman", "Hart"
+    , "Elliott", "Cunningham", "Knight", "Bradley", "Allard", "Archambault", "Augustin", "Babin"
+    , "Babineaux"
+    , "Baudin", "Beauchene", "Beaufort", "Bellamy", "Berger", "Beringer", "Bernard", "Blaise", "Blanc"
+    , "Comtois", "Coste", "Courtemanche", "Couture", "Daniau", "Daviau", "Degarmo", "Delacroix"
+    , "Deniel", "Denis", "De Sauveterre", "Deschamps", "Duchamps", "Desjardins", "Droit"
+    , "Favre", "Faucher", "Fay", "Felix", "Firmin", "Fontaine", "Fortier", "Gagnier", "Garcon", "Giles"
+    , "Giroux", "Gosselin", "Gros", "Guillory", "Hardy", "Hebert", "Legrand", "Leon", "Lestrange", "Lucas"
+    , "Olivier", "Page", "Moulin", "Pape", "Paquet", "Rey", "Richelieu", "Roche", "Rousseau", "Roux"
+    , "Sauvage", "Savatier", "Segal", "Soucy", "Tasse", "Thayer", "Thibault", "Trabert", "Villeneuve"
+    , "Vipond", "Voclain"
+  ]
+  , "relationmaybe": [" #relation#", ""]
+  , "relation": ["Brothers", "Bros", "Family", "Sisters"]
+  , "az": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P"
+    , "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"
+  ],
+
+  "ratingmaybe": [" #rater#", ""]
+  , "pm": ["+", "-", "", ""],
+
+  "rater": ["#rateit#"]
+  , "rateit": ["#adjective##punctuation##grademaybe#"],
+
+  "grademaybe": [" #grade#", ""]
+  , "grade-good": ["#letter-good##pm#"]
+  , "grade-bad": ["#letter-bad##pm#", "#letter-bad##pm#", "F"]
+  , "letter-good": ["A", "B"]
+  , "letter-bad": ["C", "D"],
+
+  "reaction-good": ["Excellent", "Surprising", "Magnificent"]
+  , "reaction-bad": ["Passable", "Avoidable", "Tolerable", "Indifferent"],
+
+  "punctuation": [".", ".", "!", "!!!"]
+}
