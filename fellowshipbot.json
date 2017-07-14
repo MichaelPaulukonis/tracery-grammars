@@ -1,0 +1,105 @@
+{
+  "origin": ["#name##suffix-maybe#"],
+  "name": [
+    "#ordinal-maybe##lingos-trad# #house-trad#",
+    "#ordinal-maybe##lingos-new# #house-new#",
+    "#ordinal-maybe##lingos-other# #house-new#"
+  ],
+  "ordinal-maybe": ["#ordinal# ", "#ordinal# ", "", "", "#saint# ", "#mount# "],
+  "ordinal": [
+    "First", "Second", "Third", "Fourth", "Fifth", "Sixth", "Seventh", 
+    "Last", "Only", "Final", "Next", "Greater", "Original", "Higher",
+    "Larger", "New", "Gathered", "Restored", "Seventh Day",
+    "Free", "#mount#"
+  ],
+  "mount": ["Mt Zion", "Mt Olive", "Mt Olivet", "Mt Calvary", "Mt Carmel", "Mt Pleasant",
+    "Pleasant Hill", "Mt Moriah", "Mt Sinai", "Zion Hill", "Mt Pisgah",
+    "Mt Nebo", "Mt Tabor", "Mt Pilgrim", "Mt Hope", "Mt Gilead", "Mt Bethel",
+    "Spring Hill", "Mt Lebanon", "Mt Hermon", "Mars Hill"
+  ],
+  "saint": ["St #saint-name#", "Saint #saint-name#"],
+  "saint-name": [
+    "John", "Paul", "Mary", "Peter", "James", "Joseph", "Mark", "Luke",
+    "Andrew", "Matthew", "Stephen", "Michael", "Francis", "Thomas", "Patrick",
+    "Anthony", "George", "Ann", "Anne", "Nicholas", "Elizabeth"
+  ],
+  "suffix-maybe": ["", "", "", ", #suffix#", " (#suffix#)"],
+  "suffix": ["North", "South", "East", "West", "Restored", "Redeemed"],
+  "lingo-trad": [
+    "Bible", "Grace", "Ministry", "Unity", "Assembly of God",
+    "Baptised", "Open", "Redeemed", "Sanctified", "Disciples", "Born Again",
+    "New Jerusalem", "Zion", "Covenant", "Cornerstone", "Restoration",
+    "Cross of Christ", "Christ's Way", "Missionary", "Evangelical", "Believers",
+    "Faith", "Harvest", "Holiness", "New Hope", "Trinity", "Calvary", "Memorial",
+    "Congregational",
+    "#lingo-other#", "#lingo-new#"
+  ],
+  "lingo-new": [
+    "Contemporary", "Modern", "Enlightened", "Rhythm", "Pulse", "Beat", "Dynamic",
+    "Propulsion", "Embark", "Agape", "Ekklesia", "Musterion", "Charismatos",
+    "Welcoming", "Confidence", "Divine Wealth", "World Peace", "Holy Mountain",
+    "Blessed Inheritance", "Honeycomb and Honey", "Wine and Milk", "New Deal",
+    "Music of Life", "Be the Cause", "Fresh", "Objective", "Messenger", "Light",
+    "Vibe", "One Love", "New Globe", "Endeavor", "Exchange", "First Act",
+    "Clean Slate", "24", "Truth", "Epic", "Renewal", "One Way", "Century", "Central",
+    "Landmark", "Portal", "Purpose", "Joy", "Multiply", "One", "Daystar",
+    "Hope and Charity", "Faithstep", "Faithway", "New Beginnings", "Power",
+    "Rescue", "New Millenium", "Confidence", "Potential", "Value", "Acceptance",
+    "God's Prized Possession", "Victorious", "Healed", "Blessed", "Prosperous",
+    "Fulfillment", "Positive Outlook", "Full Potential", "Positive Life",
+    "Crossroads", "Harmony",
+    "#lingo-other#", "#lingo-trad#"
+  ],
+  "lingo-other": [
+    "Lord of Hosts", "Testimony of Jesus Christ", "Faithful Witness",
+    "Companions in Suffering", "Son of Man", "Vision of Christ",
+    "Pillar in the Temple", "Root of David", "Tribe of Judah", "Wrath of the Lamb",
+    "Tree of Life", "We Who Suffer", "Hidden Manna", "Repent of Your Immorality",
+    "Standing Before the Throne", "Salvation Belongs to God", "Springs of Living Water",
+    "Silence in Heaven", "Woe to the Inhabitants of the Earth", "Seal of God",
+    "Mystery of God", "Seven Thunders", "Seventh Angel", "Angel of the Abyss",
+    "Faith in Christ", "Israel My Inheritance", "God's Peace", "Evangelist",
+    "King Upon Zion", "Blood of Sinners", "Washed by the Lamb", "Disciples",
+    "Ark of His Covenant", "God's Temple in Heaven", "Crown of Stars",
+    "Blessed are the Dead", "Winepress of God’s Wrath", "God’s Wrath on the Earth",
+    "Blessed is the One Who Stays Awake", "Consumed by Fire", "Outside are the Dogs",
+    "We are All Sinners", "Redeemed by Christ's Blood", "Authority Over the Nations",
+    "Give Thanks to the Lord", "Righteousness of the People", "Christ's Afflictions",
+    "Rejoice in His Sufferings", "Living God", "Mount Zion", "City of God", 
+    "Examples to the Flock", "God's Fellow Workers", "Jerusalem Above",
+    "All Nations", "Back to the Bible", "End Times", "Garden of Prayer",
+    "House of Deliverance", "Gospel Light", "Pioneer of Faith", "Seed & Harvest",
+    "True Vine", "Solid Rock", "Spirit and Truth", "Whosoever Will Be",
+    "Steadfast in Confidence", "Israel-His-Dominion", "A City Not Forsaken",
+    "Overcoming Adversity", "God's Plan", "Blessed in Abundance",
+    "Flood of Wisdom",
+    "#lingo-trad#", "#lingo-trad#", "#lingo-trad#"
+  ],
+  "lingos-trad": [
+    "#lingo-trad# #lingo-trad#", 
+    "#lingo-trad# #lingo-trad# #lingo-trad#", 
+    "#lingo-trad# #lingo-trad# #lingo-trad# #lingo-trad#", 
+    "#lingo-trad# #lingo-trad# #lingo-trad# #lingo-trad# #lingo-trad#"
+  ],
+  "lingos-new":[
+    "#lingo-new# #lingo-new#", 
+    "#lingo-new# #lingo-new# #lingo-new#", 
+    "#lingo-new# #lingo-new# #lingo-new# #lingo-new#", 
+    "#lingo-new# #lingo-new# #lingo-new# #lingo-new# #lingo-new#"
+    ],
+  "lingos-other":[
+    "#lingo-other#",
+    "#lingo-other# #lingo-other#", 
+    "#lingo-other# #lingo-other# #lingo-other#", 
+    "#lingo-other# #lingo-other# #lingo-other# #lingo-other#"
+  ],
+  "house-trad": [
+    "Temple", "Church", "Hall", "Assembly", "Tabernacle", "Worship", "Fellowship",
+    "Church", "Church", "Sanctuary", "United"
+  ],
+  "house-new": [
+    "Center", "Assembly", "People", "Village", "Community", "Family",
+    "Friends", "Church", "Temple", "Outreach", "Fellowship", "Chapel", "Union",
+    "United"
+  ]
+}
