@@ -9,3 +9,6 @@ sources for some [cheap bots (done quickly)](http://cheapbotsdonequick.com/).
 
 * https://twitter.com/brewmasterbot
 ** http://cheapbotsdonequick.com/source/BrewmasterBot
+
+* http://twitter.com/WhitespaceBot
+** http://cheapbotsdonequick.com/source/WhitespaceBot
